@@ -9,20 +9,18 @@ export function Contact(){
   return(
     <Container id="contact">
       <header>
-        <h2>Entre em contato comigo</h2>
-        <p>Se você viu o meu potencial ou quer conversar comigo, não exite em me mandar uma mensagem.</p>
+        <h2>Feel free to contact me</h2>
+        <p>Contact me directly via email if you are interested in making something great together.</p>
       </header>
       <div className="contacts">
         <div>
           <img src={emailIcon} alt="Email" />
-          <a href="mailto:joaotuliosoares@hotmail.com">joaotuliosoares@hotmail.com</a>
+          <a href="mailto:milan030820003@gmail.com">milan030820003@gmail.com</a>
         </div>
         <div>
           <img src={phoneIcon} alt="Email" />
-          <a href="tel:+5531981213843">(31) 98121-3843</a>
+          <a href="tel:+381649206722">(+381) 64/920-67-22</a>
         </div>  
-      </div>
-      <Form></Form>
-    </Container>
+      </div></Container>
   )
 }
